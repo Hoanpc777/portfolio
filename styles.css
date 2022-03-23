@@ -1,0 +1,288 @@
+/* 
+===== COLORS =======
+#fff
+#959595
+====================
+ */
+
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  #main-container {
+    padding: 0;
+  }
+  
+  .container {
+    padding: 0;
+  }
+  
+  .row {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* ===================== */
+  /* NAVIGATION */
+  /* ===================== */
+  
+  #navigation-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5% 15%;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
+  
+  #main-menu .nav-link {
+    color: #fff;
+  }
+  
+  #main-menu .nav-link:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #main-menu .nav-link:active {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #main-menu .current {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* ===================== */
+  /* WELCOME */
+  /* ===================== */
+  
+  #welcome {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(./images/dataanalysisbackground.jpeg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  #profile-image {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  #welcome h1,
+  #welcome h2 {
+    text-align: center;
+    opacity: 0.75;
+    text-transform: uppercase;
+  }
+  
+  #welcome h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  
+  #social-media-icons a {
+    margin: 0 2.5%;
+  }
+  
+  #social-media-icons a:hover {
+    transform: scale(1.5);
+  }
+  
+  /* ===================== */
+  /* RECOMMENDATIONS */
+  /* ===================== */
+  
+  #recommendations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  
+  #slide-content img {
+    border-radius: 50%;
+    width: 10rem;
+    margin: 5%;
+    opacity: 0.2;
+  }
+  
+  #slide-content a {
+    color: #000;
+  }
+  
+  #slide-content a:hover {
+    color: #959595;
+  }
+  
+  #slide-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  #slide-content h3 {
+    font-size: 1.25rem;
+    margin: 1rem;
+  }
+  
+  #slide-content p {
+    padding: 0 15%;
+    margin-bottom: 5rem;
+    font-style: italic;
+    color: #959595;
+  }
+  
+  .lq-icon {
+    margin-right: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .carousel-indicators li {
+    background-color: #959595;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #000;
+  }
+  
+  /* ===================== */
+  /* EDUCATIONS */
+  /* ===================== */
+  
+  /* 
+  FIU COLORS
+  #B6862C
+  #081E3F
+  */
+  
+  #education {
+    background-color: #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #education h2 {
+    color: #081e3f;
+    margin: 5% 0;
+  }
+  
+  /* ===================== */
+  /* CERTIFICATIONS */
+  /* ===================== */
+  
+  #certifications img {
+    width: 20rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  #certifications hr {
+    border: 0;
+    height: 1px;
+    width: 50%;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  
+  /* ===================== */
+  /* EXPERIENCE */
+  /* ===================== */
+  
+  /* 
+  Assurant Colors:
+  #f9a61a
+  #0070b8
+  #00b034
+  #797979
+  
+  Zimmer Biomet Colors:
+  #009fdf
+  #333333
+  
+  Aon Colors:
+  #f0f0f0
+  #e11b22
+  */
+  
+  #experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  #assurant-box {
+    background-color: #f9a61a;
+  }
+  
+  #experience h2 {
+    margin: 5% 0;
+  }
+  
+  #experience img {
+    border-radius: 50%;
+  }
+  
+  #zimmer-box {
+    background-color: #009fdf;
+  }
+  
+  #aon-box {
+    background-color: hsla(358, 79%, 49%, 0.75);
+  }
+  
+  #heartware-box {
+    background-color: #f0f0f0;
+  }
+  
+  /* ===================== */
+  /* MEDIA QUERIES */
+  /* ===================== */
