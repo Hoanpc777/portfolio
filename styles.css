@@ -268,11 +268,15 @@
   }
   
   #experience img {
-    border-radius: 50%;
+    border-radius: 0;
   }
   
   #zimmer-box {
     background-color: #009fdf;
+    /* background-color: #959595; */
+    display: flex;
+    justify-content: center;
+    align-items: center;;
   }
   
   #aon-box {
