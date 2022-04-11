@@ -260,7 +260,7 @@
   }
   
   #assurant-box {
-    background-color: #f9a61a;
+    background-color: #22cdeb;
   }
   
   #experience h2 {
@@ -272,7 +272,7 @@
   }
   
   #zimmer-box {
-    background-color: #009fdf;
+    background-color: #f8f542;
     /* background-color: #959595; */
     display: flex;
     justify-content: center;
@@ -280,7 +280,7 @@
   }
   
   #aon-box {
-    background-color: hsla(358, 79%, 49%, 0.75);
+    background-color: hsla(22, 89%, 65%, 0.945);
   }
   
   #heartware-box {
@@ -290,3 +290,59 @@
   /* ===================== */
   /* MEDIA QUERIES */
   /* ===================== */
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .myrow {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .myrow,
+  .myrow > .mycolumn {
+    padding: 8px;
+  }
+  /* Create three equal columns that floats next to each other */
+  .mycolumn {
+    float: left;
+    width: 50%;
+    display: none; /* Hide columns by default */
+  }
+  /* Clear floats after rows */
+  .myrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* The "show" class is added to the filtered elements */
+.myshow {
+  display: block;
+}
+/* Style the buttons */
+.mybtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+/* Add a grey background color on mouse-over */
+.mybtn:hover {
+  background-color: #ddd;
+}
+/* Add a dark background color to the active button */
+/* .mybtn.active {
+  background-color: #666;
+   color: white;
+} */
