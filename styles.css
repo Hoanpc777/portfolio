@@ -260,7 +260,11 @@
   }
   
   #assurant-box {
-    background-color: #22cdeb;
+    background-color: #c5c5c5;
+  }
+
+  #kiotviet-box {
+    background-color: #5bca7c;
   }
   
   #experience h2 {
